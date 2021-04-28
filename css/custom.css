@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+
+
+html{
+    scroll-behavior: smooth; 
+}
+
+.cardedit{
+    border-radius: 20%;
+    width: fit-content;
+    height: fit-content;
+    background: none;
+    border-radius: 23px;
+}
+
+.members{
+    background: #FFEBBF ;
+}
+
+.khusus{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 82px;
+    text-align: center;
+
+    color: rgba(34, 34, 34, 0.1);
+}
+
+.nunitome {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 4.5rem;
+    line-height: 82px;
+    text-align: center;
+
+    color: rgba(34, 34, 34, 0.1);
+}
+
+.categories div h1{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 5.5rem;
+    line-height: 98px;
+    text-align: center;
+
+    color: rgba(34, 34, 34, 0.1);
+}
+
+.p{
+    background-color: cadetblue;
+}
+
+.aboutme img {
+    margin: top left;
+}
+
+h1{
+    color: #2222221A 10%;
+}
+
+.categories {
+    background-color: #F3C759;
+}
+
+.card-cattalog{
+    border-top-right-radius: 125px;
+    border-bottom-left-radius: 125px;
+}
+
+.cattalog {
+    height: 400px;
+}
+
+.back {
+    background-image: url(../img/Group\ 91.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-attachment: scroll;
+    height: 855px;
+}
+
+.besar{
+    font-size: 3rem;
+}
+
+.bbtn{
+    background-color: lightsalmon;
+    border-color: lightsalmon;
+    color: white;
+}
+
+.bsize {
+    width: 22vh;
+}
+
+.btntr{
+    background-color: transparent;
+    border-color: black;
+    color: black;
+}
+
+
+.card {
+    margin-bottom: 20px;
+    border: none
+}
+
+.box {
+    width: auto;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px 4px #808080;
+    border-width: 1px;
+    text-align: center;
+    transition: 0.25s;
+    margin-top: 4%;
+    background-color: white;
+}
+
+.catt input[type="text"],
+.box textarea,
+.box catt [type="email"],
+.box input[type="number"],
+.box input[type="text"],
+.box input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto; 
+    text-align: left;
+    border: 2px solid orange;
+    padding: 10px 10px;
+    width: 80vh;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s
+}
+
+.box h1 {
+    color: black;
+    font-weight: 500
+}
+
+.box textarea{
+    border-radius: 0px; 
+}
+
+.catt input[type="text"]:focus,
+.box textarea:focus,
+.box input[type="email"]:focus,
+.box input[type="number"]:focus,
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+    width: 80vh;
+    border-color:gold
+}
+
+.box input[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 2% auto;
+    text-align: center;
+    border: 2px solid orange;
+    padding: 14px 40px;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer
+}
+
+.box a {
+    color: grey;
+}
+
+.box input[type="submit"]:hover {
+    background: orange
+}
+
+.forgot {
+    text-decoration: underline
+}
+
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0
+}
+
+ul.social-network li {
+    display: inline;
+    margin: 0 5px
+}
+
+.social-network a.icoFacebook:hover {
+    background-color: #3B5998
+}
+
+.social-network a.icoTwitter:hover {
+    background-color: #33ccff
+}
+
+.social-network a.icoGoogle:hover {
+    background-color: #BD3518
+}
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i {
+    color: #fff
+}
+
+a.socialIcon:hover,
+.socialHoverClass {
+    color: #44BCDD
+}
+
+.social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    border-radius: 50%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 20px
+}
+
+.social-circle li i {
+    margin: 0;
+    line-height: 50px;
+    text-align: center
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+    transform: rotate(360deg);
+    transition: all 0.2s
+}
+
+.social-circle i {
+    color: #fff;
+    transition: all 0.8s;
+    transition: all 0.8s
+}
