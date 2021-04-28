@@ -10,55 +10,57 @@
 </head>
 <body>
     <div class="back modal-dialog-scrollable container-fluid pt-2">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
-                        <table>
-                            <tr>
-                                <td><img src="img/happy (1) 1.png" alt="" srcset=""></td>
-                                <td>
-                                    <h1>Cattify</h1>
-                                </td>
-                            </tr>
-                        </table>
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                        <span></span>
-                        <span></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item ps-3 pe-3">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item ps-3 pe-3">
-                                <a class="nav-link" href="#About">About Us</a>
-                            </li>
-                            <li class="nav-item ps-3 pe-5">
-                                <a class="nav-link" href="#">Cattegories</a>
-                            </li>
-                        </ul>
-                            <a class="btn bsize btn-outline-success btn-lg btn-outline-dark" type="submit">Log in</a>
-                    </div>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <table>
+                        <tr>
+                            <td><img src="img/happy (1) 1.png" alt="" srcset=""></td>
+                            <td>
+                                <h1>Cattify</h1>
+                            </td>
+                        </tr>
+                    </table>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item ps-3 pe-3">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item ps-3 pe-3">
+                            <a class="nav-link" href="#About">About Us</a>
+                        </li>
+                        <li class="nav-item ps-3 pe-5">
+                            <a class="nav-link" href="#">Cattegories</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" action="login.php">
+                        <button class="btn bsize btn-outline-success btn-lg btn-outline-dark" type="submit">Log in</button>
+                    </form>
                 </div>
-            </nav>
-            <div class="ps-3">
-                <br><br><br>
-                <h2>Selamat Datang di Cattify,</h2><br>
-                <h1 class="besar">Cari Kucing <br> Lucu? imut? <br> gemes?</h1>
-                <br><br>
-                    <a class="btn bbtn" href="#categories" type="submit">Explore Meow!</a>
-                    <a class="btn btn-danger " href="https://forms.gle/kTvXGix5jaLwQ4Cz8" type="submit">Survey!</a>
             </div>
-            
+        </nav>
+        <div class="ps-3">
+            <br><br><br>
+            <h2>Selamat Datang di Cattify,</h2><br>
+            <h1 class="besar">Cari Kucing <br> Lucu? imut? <br> gemes?</h1>
+            <br><br>
+                <a class="btn bbtn" type="submit" href="#categories">Explore Meow!</a>
+                <a class="btn bbtn" type="submit" href="https://forms.gle/kTvXGix5jaLwQ4Cz8">Survey!</a>
+        </div>
+        
     </div>
     <div class="categories pt-5 container-fluid">
             <div class="container-fluid text-center">
                     <h1 id="categories">Cattegories</h1>
             </div>
         <div class="container">
-            <div class="pt-2 pb-5 row row-cols-1 row-cols-md-3 g-4 align-items-center">
+            <div class="pt-5 pb-5 row row-cols-1 row-cols-md-3 g-4 align-items-center">
                 <div class="col pe-5">
                     <div class="card-cattalog" style="background: #F9BDBD !important;">
                         <div class="card-body">
@@ -73,7 +75,7 @@
                 </div>
                 <div class="col pe-5">
                     <div class="card-cattalog" style="background: #894242 !important;">
-                        <div class="card-body" >
+                        <div class="card-body">
                             <h5 class="card-title pb-3">Catmate</h5>
                             <img src="img/soft-pad-dining-chair-with-solid-oak-crossed-wood-legs-cool-grey-p1561-26034_zoom 1.png" height="300" class="card-img-top" alt="">
                             <br>
@@ -90,12 +92,12 @@
                             <img src="img/kucingkandang.png" class="card-img-top" height="300" alt="">
                             <br>
                             <form class="text-end" action="">
-                                <a class="btn btntr btn-primary" href="https://www.halodoc.com/cari-dokter/spesialis/dokter-hewan">Consult Now!</a>
+                                <a class="btn btntr btn-primary" href="https://www.halodoc.com/" >Consult Now!</a>
                             </form>
                         </div>
                     </div>
                 </div>
-                <div class="col mx-auto pt-2">
+                <div class="col mx-auto pt-5">
                     <div class="card-cattalog" style="background: #F7DEA6 !important;">
                         <div class="card-body">
                             <h5 class="card-title pb-3">Catsessories</h5>
@@ -161,237 +163,236 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid pt-4">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <h1 class="nunitome" id="catsessories">Catsessories</h1>
+    </div>
+    <div class="container-fluid pt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1 class="nunitome" id="catsessories">Catsessories</h1>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <button class="border-0 bg-transparent">
+                            <div class="card-header border-0 bg-transparent">
+                                <img src="img/kalung biru.png" class="rounded-circle" alt="">
+                            </div>
+                        </button>
                     </div>
                 </div>
-                <br>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card">
-                            <button class="border-0 bg-transparent">
-                                <div class="card-header border-0 bg-transparent">
-                                    <img src="img/kalung biru.png" class="rounded-circle" alt="">
-                                </div>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <button class="border-0 bg-transparent">
-                                <div class="card-header border-0 bg-transparent">
-                                    <img src="img/kalingmerah.png" class="rounded-circle" alt="">
-                                </div>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <button class="border-0 bg-transparent">
-                                <div class="card-header border-0 bg-transparent">
-                                    <img src="img/bolakucing.png" class="rounded-circle" alt="">
-                                </div>
-                            </button>
-                        </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <button class="border-0 bg-transparent">
+                            <div class="card-header border-0 bg-transparent">
+                                <img src="img/kalingmerah.png" class="rounded-circle" alt="">
+                            </div>
+                        </button>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card">
-                            <button class="border-0 bg-transparent">
-                                <div class="card-header border-0 bg-transparent">
-                                    <img src="img/rumakayu.png" class="rounded-circle" alt="">
-                                </div>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <button class="border-0 bg-transparent">
-                                <div class="card-header border-0 bg-transparent">
-                                    <img src="img/sekoop.png" class="rounded-circle" alt="">
-                                </div>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <button class="border-0 bg-transparent">
-                                <div class="card-header border-0 bg-transparent">
-                                    <img src="img/shampookucing.png" class="rounded-circle" alt="">
-                                </div>
-                            </button>
-                        </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <button class="border-0 bg-transparent">
+                            <div class="card-header border-0 bg-transparent">
+                                <img src="img/bolakucing.png" class="rounded-circle" alt="">
+                            </div>
+                        </button>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card">
-                            <button class="border-0 bg-transparent">
-                                <div class="card-header border-0 bg-transparent">
-                                    <img src="img/taskucing.png" class="rounded-circle" alt="">
-                                </div>
-                            </button>
-                        </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <button class="border-0 bg-transparent">
+                            <div class="card-header border-0 bg-transparent">
+                                <img src="img/rumakayu.png" class="rounded-circle" alt="">
+                            </div>
+                        </button>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <button class="border-0 bg-transparent">
-                                <div class="card-header border-0 bg-transparent">
-                                    <img src="img/sisirkucing.png" class="rounded-circle" alt="">
-                                </div>
-                            </button>
-                        </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <button class="border-0 bg-transparent">
+                            <div class="card-header border-0 bg-transparent">
+                                <img src="img/sekoop.png" class="rounded-circle" alt="">
+                            </div>
+                        </button>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <button class="border-0 bg-transparent">
-                                <div class="card-header border-0 bg-transparent">
-                                    <img src="img/multivitamin.png" class="rounded-circle" alt="">
-                                </div>
-                            </button>
-                        </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <button class="border-0 bg-transparent">
+                            <div class="card-header border-0 bg-transparent">
+                                <img src="img/shampookucing.png" class="rounded-circle" alt="">
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <button class="border-0 bg-transparent">
+                            <div class="card-header border-0 bg-transparent">
+                                <img src="img/taskucing.png" class="rounded-circle" alt="">
+                            </div>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <button class="border-0 bg-transparent">
+                            <div class="card-header border-0 bg-transparent">
+                                <img src="img/sisirkucing.png" class="rounded-circle" alt="">
+                            </div>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <button class="border-0 bg-transparent">
+                            <div class="card-header border-0 bg-transparent">
+                                <img src="img/multivitamin.png" class="rounded-circle" alt="">
+                            </div>
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="pt-4 container-fluid ">
-            <div class="container">
-                <div class="row text-center">
-                    <h1 class="nunitome" id="catmate">CatMate!</h1>
-                </div> 
-                    <br>
-                <div class="row col-md-6 mx-auto">
-                    <div class="card bg-light">
-                        <div class="card-body">
-                            <div class="column row justify-content-start">
-                                    <div class="col col-md-4">
-                                        <img src="img/kucingmed1.png" class="rounded-circle" alt="">
-                                    </div>
-                                    <div class="col col-md-8 ps-4">
-                                        <img src="img/cwk.png" alt="">
-                                        <p class="card-text">
-                                            Nama : Lily <br>
-                                            Ras     : Anggora <br>
-                                            Jenis   : PURE WHITE TURKISH <br>
-                                            Usia    : 6 bulan <br>
-                                            Lokasi : Condet
-                                            </p>
-                                    </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>   
-                <div class="row col-md-6 mx-auto">
-                    <h2 class="column row justify-content-end khusus">Your Cat Type!</h2>
-                    <div class="card bg-light">
-                        <div class="card-body">
-                            <div class="column row justify-content-start">
+    </div>
+    <div class="pt-4 container-fluid ">
+        <div class="container">
+            <div class="row text-center">
+                <h1 class="nunitome" id="catmate">CatMate!</h1>
+            </div> 
+                <br>
+            <div class="row col-md-6 mx-auto">
+                <div class="card bg-light">
+                    <div class="card-body">
+                        <div class="column row justify-content-start">
                                 <div class="col col-md-4">
-                                    <img src="img/kucingmed2.png" class="rounded-circle" alt="">
+                                    <img src="img/kucingmed1.png" class="rounded-circle" alt="">
                                 </div>
                                 <div class="col col-md-8 ps-4">
-                                    <img src="img/cw.png" alt="">
+                                    <img src="img/cwk.png" alt="">
                                     <p class="card-text">
-                                        Nama : Debian <br>
+                                        Nama : Lily <br>
                                         Ras     : Anggora <br>
                                         Jenis   : PURE WHITE TURKISH <br>
-                                        Usia    : 7 bulan <br>
+                                        Usia    : 6 bulan <br>
                                         Lokasi : Condet
                                         </p>
-                                </div> 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="aboutme container-fluid my-5">
-            <div class="container ">
-                <div class="text-center pt-4">
-                    <h1 class="nunitome" id="About">About Us</h1>
-                </div>
-                <div class="row">
-                    <div class="d-flex col-md-6 align-items-start">
-                        <img src="img/sr.png" alt="">
-                    </div>
-                    <div class="d-flex col-md-6 align-items-center">
-                        <h1>Made just for you with lots of love... <br>
-                            <p style="font-size: 25px;">Easy to access, serves you head-to-paws.</p></h1> 
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="my-5 text-center"> 
-                        <h1>Meow! <br> 
-                            <p style="font-size: 22px;" class="mt-3">CATTIFY was created by Bubble Tech. <br> in the hope of creating a fun,<br> easy-to-access platform  to those<br> who are head over heels for CATS!<br></h1>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-        <div class="members container-fluid">
-            <div class="container-fluid">
-                <div class="row py-2 text-center">
-                    <h3>Made With Love by</h3>
-                </div>
-                <div class="container align-content-center text-center">
-                    <div class="pt-3 row ">
-                        <div class="col-md-3 align-content-center mx-auto">
-                            <div style="height: 220px;" class="card cardedit ">
-                                <div class="card-header border-0">
-                                    <img style="height: 160px; width: 120px;" src="img/luthfi.jpeg" alt="">
-                                    <p class="card-text text-start">
-                                        Nama : M Luthfi Arsyad F <br>
-                                        Role : Hacker
-                                    </p> 
                                 </div>
-                            </div>
                         </div>
-                        <div class="col-md-3">
-                            <div class="card cardedit">
-                                <div class="card-header border-0 ">
-                                    <img style="height: 160px; width: 120px;" src="img/lailil.jpeg" alt="">
-                                    <p class="card-text text-start">
-                                        Nama : Lailil Ayu Fitriyah <br>
-                                        Role : Hipster
-                                    </p> 
-                                </div>
+                    </div>
+                </div>
+            </div>   
+            <div class="row col-md-6 mx-auto">
+                <h2 class="column row justify-content-end khusus">Your Cat Type!</h2>
+                <div class="card bg-light">
+                    <div class="card-body">
+                        <div class="column row justify-content-start">
+                            <div class="col col-md-4">
+                                <img src="img/kucingmed2.png" class="rounded-circle" alt="">
                             </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="card cardedit">
-                                <div class="card-header border-0">
-                                    <img style="height: 160px; width: 120px;" src="img/vina.jpeg" alt="">
-                                    <p class="card-text text-start">
-                                        Nama : Alvina Eka Septia <br>
-                                        Role : Hipster
-                                    </p> 
-                                </div> 
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="card cardedit">
-                                <div class="card-header border-0">
-                                    <img style="height: 160px; width: 120px;" src="img/sasja.jpeg" alt="">
-                                    <p class="card-text text-start">
-                                        Nama : Sasja Nurul Qhalbi Sjarief<br>
-                                        Role : Hustler
-                                    </p> 
-                                </div> 
-                            </div>
+                            <div class="col col-md-8 ps-4">
+                                <img src="img/cw.png" alt="">
+                                <p class="card-text">
+                                    Nama : Debian <br>
+                                    Ras     : Anggora <br>
+                                    Jenis   : PURE WHITE TURKISH <br>
+                                    Usia    : 7 bulan <br>
+                                    Lokasi : Condet
+                                    </p>
+                            </div> 
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <footer class="pt-2" style="background: #FFC7C7;">
-            <br><br><br>
-        </footer>
     </div>
+    <div class="aboutme container-fluid my-5">
+        <div class="container ">
+            <div class="text-center pt-4">
+                <h1 class="nunitome" id="About">About Us</h1>
+            </div>
+            <div class="row">
+                <div class="d-flex col-md-6 align-items-start">
+                    <img src="img/sr.png" alt="">
+                </div>
+                <div class="d-flex col-md-6 align-items-center">
+                    <h1>Made just for you with lots of love... <br>
+                        <p style="font-size: 25px;">Easy to access, serves you head-to-paws.</p></h1> 
+                </div>
+            </div>
+            <div class="row">
+                <div class="my-5 text-center"> 
+                    <h1>Meow! <br> 
+                        <p style="font-size: 22px;" class="mt-3">CATTIFY was created by Bubble Tech. <br> in the hope of creating a fun,<br> easy-to-access platform  to those<br> who are head over heels for CATS!<br></h1>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="members container-fluid">
+        <div class="container-fluid">
+            <div class="row py-2 text-center">
+                <h3>Made With Love by</h3>
+            </div>
+            <div class="container align-content-center text-center">
+                <div class="pt-3 row ">
+                    <div class="col-md-3 align-content-center mx-auto">
+                        <div style="height: 220px;" class="card cardedit ">
+                            <div class="card-header border-0">
+                                <img style="height: 160px; width: 120px;" src="img/luthfi.jpeg" alt="">
+                                <p class="card-text text-start">
+                                    Nama : M Luthfi Arsyad F <br>
+                                    Role : Hacker
+                                </p> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card cardedit">
+                            <div class="card-header border-0 ">
+                                <img style="height: 160px; width: 120px;" src="img/lailil.jpeg" alt="">
+                                <p class="card-text text-start">
+                                    Nama : Lailil Ayu Fitriyah <br>
+                                    Role : Hipster
+                                </p> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card cardedit">
+                            <div class="card-header border-0">
+                                <img style="height: 160px; width: 120px;" src="img/vina.jpeg" alt="">
+                                <p class="card-text text-start">
+                                    Nama : Alvina Eka Septia <br>
+                                    Role : Hipster
+                                </p> 
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card cardedit">
+                            <div class="card-header border-0">
+                                <img style="height: 160px; width: 120px;" src="img/sasja.jpeg" alt="">
+                                <p class="card-text text-start">
+                                    Nama : Sasja Nurul Qhalbi Sjarief<br>
+                                    Role : Hustler
+                                </p> 
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="p-3" style="background: #FFC7C7;">
+        <p><br></p>
+    </footer>
     <script src="js/bootstrap.bundle.min.js"></script>
-</body>
 </body>
 </html>
